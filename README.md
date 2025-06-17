@@ -87,10 +87,10 @@ airflow_project/
 
 ```mermaid
 graph TD
-    A[Load data (load_data)] --> B[Preprocess data (preprocess_data)]
-    B --> C[Train model (train_model)]
-    C --> D[Calculate metrics (calc_metrics)]
-    D --> E[Save results (save_results)]
+    A[Load data] --> B[Preprocess data]
+    B --> C[Train model]
+    C --> D[Calculate metrics]
+    D --> E[Save results]
 ```
 ---
 
