@@ -85,7 +85,7 @@ airflow_project/
 
 ## Схема пайплайна
 
-```mermaid
+```
 graph TD
     A[Загрузка данных (load_data)] --> B[Предобработка данных (preprocess_data)]
     B --> C[Обучение модели (train_model)]
